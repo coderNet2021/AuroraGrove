@@ -1,6 +1,5 @@
 body {
   font-family: "Raleway", sans-serif;
-  background: pink;
 }
 .navbar {
   font-weight: 100;
@@ -29,7 +28,7 @@ body {
     z-index: 2;
   }
   #overlay {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     left: 0;
@@ -45,6 +44,15 @@ body {
     font-size: 1.5rem;
     border-radius: 2rem;
   }
+}
+
+#quotes {
+  i {
+    opacity: 0.3;
+  }
+}
+#footer {
+  font-weight: 100;
 }
 
 @media (max-width: 768px) {
